@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" width="360" height="220">
+  <rect width="360" height="220" fill="#236ed5" />
+  <style>
+    .label {
+      font-family: 'Montserrat', 'Arial', 'Helvetica Neue', sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+      fill: #ffffff;
+      text-anchor: middle;
+      letter-spacing: 0.5px;
+    }
+    .icon-stroke {
+      fill: none;
+      stroke: #ffffff;
+      stroke-width: 4.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .icon-thin {
+      fill: none;
+      stroke: #ffffff;
+      stroke-width: 3.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+  <g transform="translate(180, 90)">
+    <path d="M -24 -12 L 24 -12 L 18 24 C 17 28 14 30 10 30 L -10 30 C -14 30 -17 28 -18 24 Z" class="icon-stroke" />
+    <line x1="-22" y1="2" x2="22" y2="2" class="icon-thin" />
+    <path d="M -16 -12 L -16 -26 L -22 -26 L -22 -33 L -6 -33 L -6 -28 L -10 -28 L -10 -12" class="icon-thin" />
+    <rect x="-4" y="-36" width="12" height="24" rx="2" class="icon-thin" />
+    <line x1="10" y1="-12" x2="28" y2="-44" class="icon-stroke" />
+    <line x1="23" y1="-46" x2="32" y2="-41" class="icon-stroke" />
+  </g>
+  <text x="180" y="165" class="label">SANIFICAZIONI</text>
+</svg>
